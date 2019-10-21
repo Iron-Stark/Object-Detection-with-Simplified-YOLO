@@ -100,3 +100,4 @@ During inference, the network is going to predict lots of overlapping redundant 
 - Download the model from here:
   - https://drive.google.com/file/d/1Oed91n7DKPdR0PwX_Y_hL0UGJMzYPO-P/view?usp=sharing
 - Run the file main.py
+- To view the plots run tensorboard using the command ```tensorboard --logdir 'logs' --host 0.0.0.0 --port 6006 &``` on the terminal and then goto, localhost:6006
